@@ -1,10 +1,5 @@
-export default class StaticMethodsProperties {
-    public static readonly gui: string = 'Guilherme Massoqueto';
+import { PersonClass } from "./interfaces/ClassesAndInterfaces.class";
 
-    public static get GuitoArray(): string[] {
-        return this.gui.split(' ');
-    }
-}
+const ttt = new PersonClass('Guilherme', 'Sensual', 47);
 
-// console.log(StaticMethodsProperties.gui)
-// console.log(StaticMethodsProperties.GuitoArray)
+ttt.greet();
