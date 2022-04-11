@@ -1,8 +1,10 @@
-function gen_error(error_msg: string, code_number: number): never {
-    throw { 
-        message: error_msg, 
-        code: code_number
+export default class StaticMethodsProperties {
+    public static readonly gui: string = 'Guilherme Massoqueto';
+
+    public static get GuitoArray(): string[] {
+        return this.gui.split(' ');
     }
 }
 
-gen_error('Error message', 500)
+// console.log(StaticMethodsProperties.gui)
+// console.log(StaticMethodsProperties.GuitoArray)
