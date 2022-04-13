@@ -6,11 +6,19 @@ interface PersonInterface {
 }
 
 class PersonClass implements PersonInterface {
+    readonly name: string;
+    readonly lname: string;
+    readonly age: number;
+
     constructor(
-        readonly name: string, 
-        readonly lname: string,
-        readonly age: number
-    ) {}
+        name: string, 
+        lname: string, 
+        age: number
+    ) {
+        this.name = name;
+        this.lname = lname;
+        this.age = age
+    }
 
     greet(): void {
         console.log(`Basic Info\nName: ${this.name}\nLast Name: ${this.lname}\nage: ${this.age}`);
