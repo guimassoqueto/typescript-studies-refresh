@@ -1,4 +1,4 @@
-interface Person {
+interface PersonOpt {
     fname: string;
     lname: string;
     color?: string;

@@ -12,12 +12,12 @@ interface PersonJob extends Person, PersonDetails {
     job: string;
 }
 
-class Tst implements PersonJob {
+class ImplementAll implements PersonJob {
     constructor(
-        readonly name: string, 
-        readonly lname: string, 
+        readonly name: string,
+        readonly lname: string,
         readonly age: number,
         readonly details: string,
-        readonly job: string
+        readonly job: string,
     ) {}
 }

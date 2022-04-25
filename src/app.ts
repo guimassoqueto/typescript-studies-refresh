@@ -1,5 +1,6 @@
-import { PersonClass } from "./interfaces/ClassesAndInterfaces.class";
+type NullOrUndefined = null | undefined;
 
-const ttt = new PersonClass('Guilherme', 'Sensual', 47);
+const null_undefined: NullOrUndefined = undefined // or null;
+const test_null_undef = null_undefined ?? 'Only if it is null or undefined this will be shown';
 
-console.log(ttt.name);
+console.log(test_null_undef)
