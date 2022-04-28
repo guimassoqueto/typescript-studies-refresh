@@ -1,7 +1,7 @@
 ## udemy_typescript
 
 Token
-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
+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
 
 
 ## Resources
