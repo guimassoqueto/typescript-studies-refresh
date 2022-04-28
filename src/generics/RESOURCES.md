@@ -1,0 +1,1 @@
+[Generics Official Documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
