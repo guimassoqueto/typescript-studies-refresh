@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "tsc -w",
     "test": "mocha",
-    "node": "node dist/app.js"
+    "app": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
