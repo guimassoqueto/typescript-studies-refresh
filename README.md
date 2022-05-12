@@ -1,9 +1,5 @@
 ## udemy_typescript
 
-Token
-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
-
-
 ## Resources
 
 [tsconfig Docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
