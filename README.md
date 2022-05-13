@@ -1,6 +1,12 @@
-## udemy_typescript
+## typescript_refresh
 
-## Resources
+### en-US
+Remembering TypeScript concepts and principles and updating knowledge.
+
+### pt-BR
+Relembrando conceitos e princípios do Typescript e atualizando o conhecimento.
+
+### Resources
 
 [tsconfig Docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
