@@ -1,10 +1,10 @@
 ## typescript_refresh
 
 ### en-US
-Remembering TypeScript concepts and principles and updating knowledge.
+Remembering TypeScript concepts and principles and updating knowledge. 2022
 
 ### pt-BR
-Relembrando conceitos e princípios do Typescript e atualizando o conhecimento.
+Relembrando conceitos e princípios do Typescript e atualizando o conhecimento. 2022
 
 ### Resources
 
